@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/khaki4/blog.git",
   "author": "정지원 <4dakto@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.5.2"
+  },
+  "scripts": {
+    "start": "node-sass -o ./src/style/css ./src/style/scss"
+  }
 }
